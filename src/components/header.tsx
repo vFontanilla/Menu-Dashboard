@@ -14,7 +14,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="text-xl font-bold text-black">Coffe Moni</div>
+          <div className="text-xl font-bold text-black">Coffe Bucks</div>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-8">
@@ -36,6 +36,18 @@ const Header: React.FC = () => {
               <Button className="bg-blue-600 text-white hover:bg-blue-700">
                 <LayoutDashboard className="w-5 h-5" />
                     Dashboard
+              </Button>
+            </div>
+            <div className="hidden md:block">
+              <Button className="bg-blue-600 text-white hover:bg-blue-700">
+                <LayoutDashboard className="w-5 h-5" />
+                    History
+              </Button>
+            </div>
+            <div className="hidden md:block">
+              <Button className="bg-blue-600 text-white hover:bg-blue-700">
+                <LayoutDashboard className="w-5 h-5" />
+                    Export
               </Button>
             </div>
           </div>
