@@ -27,25 +27,25 @@ const Header: React.FC = () => {
           {/* CTA */}
           <div className="flex items-center space-x-5">
             <div className="hidden md:block">
-              <Button className="bg-blue-600 text-white hover:bg-blue-700">
+              <Button className=" text-white ">
                 <ShoppingCart className="w-5 h-5" />
                     Cart
               </Button>
             </div>
             <div className="hidden md:block">
-              <Button className="bg-blue-600 text-white hover:bg-blue-700">
+              <Button className=" text-white">
                 <LayoutDashboard className="w-5 h-5" />
                     Dashboard
               </Button>
             </div>
             <div className="hidden md:block">
-              <Button className="bg-blue-600 text-white hover:bg-blue-700">
+              <Button className=" text-white">
                 <LayoutDashboard className="w-5 h-5" />
                     History
               </Button>
             </div>
             <div className="hidden md:block">
-              <Button className="bg-blue-600 text-white hover:bg-blue-700">
+              <Button className=" text-white">
                 <LayoutDashboard className="w-5 h-5" />
                     Export
               </Button>
@@ -85,13 +85,21 @@ const Header: React.FC = () => {
             <a href="#" className="block text-black">Contact</a>
           </nav> */}
           <div className="pt-2 space-y-2">
-            <Button className="w-full bg-blue-600 text-white hover:bg-blue-700">
+            <Button className="w-full  text-white ">
                 <ShoppingCart className="w-5 h-5" />
                     Cart
             </Button>
-            <Button className="w-full bg-blue-600 text-white hover:bg-blue-700">
+            <Button className="w-full  text-white ">
                 <LayoutDashboard className="w-5 h-5" />
                     Dashboard
+            </Button>
+            <Button className="w-full text-white">
+                <LayoutDashboard className="w-5 h-5" />
+                    History
+            </Button>
+            <Button className="w-full text-white">
+                <LayoutDashboard className="w-5 h-5" />
+                    Export
             </Button>
           </div>
         </div>

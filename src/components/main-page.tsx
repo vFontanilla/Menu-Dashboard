@@ -76,7 +76,7 @@ const MainPage: React.FC = () => {
                 ⏱ Prep time: {item.preparationTime} {item.preparationTimeUnit}
               </p>
               <Button
-                className="w-full bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2"
+                className="w-full text-white flex items-center gap-2"
                 onClick={() => handleAddToCart(item.name)}
               >
                 <ShoppingCart className="w-4 h-4" />
